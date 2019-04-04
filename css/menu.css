@@ -73,6 +73,11 @@ main section img {
 	display: block;
 }
 
+main section iframe {
+	margin:10px auto;
+	display: block;
+}
+
 main section p {
 	text-align: left;
 	padding: 1%;
