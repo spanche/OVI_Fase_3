@@ -1,0 +1,249 @@
+# OVI_Fase_3
+OVI Fase 3 - Trabajo colaborativo
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Datos Estudiantes</title>
+
+	<img img width="1300" height="170"src="img/logounad.jpg">
+
+	<body style="background-color:#DAF7A6;">
+</body>
+
+</head>
+<body>
+
+<br>
+<br>
+<br>
+<ul>
+		<li><a href="index.html">REGRESAR</a></li>
+	</ul>
+<center>
+
+<h1 style="color:0";>Datos Estudiante Grupo 301122-15</h1>
+
+</center>
+
+<br>
+
+<h1>Estudiante 1</h1>
+
+<table border="1">
+   <tr>
+       <th>Item</th>
+       <td><b>Datos</b></td>
+       <td><b>Foto</b></td>
+      </tr>
+   <tr>
+       <th>Nombres</th>
+       <td>Marco Tulio</td>
+       <td rowspan="6">
+       	
+<img img width="150" height="170"src="img/Marco .jpg">
+
+       </td>
+   </tr>
+  <tr>
+  	   <th>Apellidos</th>
+       <td>Palomo Avila</td>
+  </tr>
+  <tr>
+       <th>Codigo</th>
+       <td>79405397</td>
+  </tr>
+    <tr>
+       <th>Programa</th>
+       <td>Ingenieria de Sistemas</td>
+  </tr>
+     <tr>
+       <th>Correo</th>
+       <td>tuliomachine65@gmail.com</td>
+  </tr>
+    <tr>
+       <th>Skype</th>
+       <td>marc.pa.av.</td>
+  </tr>
+
+</table>
+<br>
+<br>
+
+<h1>Estudiante 2</h1>
+
+<table border="1">
+   <tr>
+       <th>Item</th>
+       <td><b>Datos</b></td>
+       <td><b>Foto</b></td>
+      </tr>
+   <tr>
+       <th>Nombres</th>
+       <td>Sergio Alejandro </td>
+       <td rowspan="6">
+       	
+<img img width="150" height="170"src="img/sergio.jpg">
+
+       </td>
+   </tr>
+  <tr>
+  	   <th>Apellidos</th>
+       <td>Panche</td>
+  </tr>
+  <tr>
+       <th>Codigo</th>
+       <td>xxxxxx</td>
+  </tr>
+    <tr>
+       <th>Programa</th>
+       <td>Ingenieria de Sistemas</td>
+  </tr>
+     <tr>
+       <th>Correo</th>
+       <td>xxxxx</td>
+  </tr>
+    <tr>
+       <th>Skype</th>
+       <td>xxxxxx</td>
+  </tr>
+
+</table>
+<br>
+<br>
+
+<h1>Estudiante 3</h1>
+
+<table border="1">
+   <tr>
+       <th>Item</th>
+       <td><b>Datos</b></td>
+       <td><b>Foto</b></td>
+      </tr>
+   <tr>
+       <th>Nombres</th>
+       <td>Norman Ernesto</td>
+       <td rowspan="6">
+       	
+<img img width="150" height="170"src="img/Norman.jpg">
+
+       </td>
+   </tr>
+  <tr>
+  	   <th>Apellidos</th>
+       <td>Burbano</td>
+  </tr>
+  <tr>
+       <th>Codigo</th>
+       <td>xxxxx</td>
+  </tr>
+    <tr>
+       <th>Programa</th>
+       <td>Ingenieria de Sistemas</td>
+  </tr>
+     <tr>
+       <th>Correo</th>
+       <td>xxxxxxx</td>
+  </tr>
+    <tr>
+       <th>Skype</th>
+       <td>xxxxxx</td>
+  </tr>
+
+</table>
+<br>
+<br>
+
+<h1>Estudiante 4</h1>
+
+<table border="1">
+   <tr>
+       <th>Item</th>
+       <td><b>Datos</b></td>
+       <td><b>Foto</b></td>
+      </tr>
+   <tr>
+       <th>Nombres</th>
+       <td>xxxxxx</td>
+       <td rowspan="6">
+       	
+<img img width="150" height="170"src="img/xxxxxxx.jpg">
+
+       </td>
+   </tr>
+  <tr>
+  	   <th>Apellidos</th>
+       <td>xxxxxxxx</td>
+  </tr>
+  <tr>
+       <th>Codigo</th>
+       <td>xxxxxxxx</td>
+  </tr>
+    <tr>
+       <th>Programa</th>
+       <td>Ingenieria de Sistemas</td>
+  </tr>
+     <tr>
+       <th>Correo</th>
+       <td>xxxxxxxxxxxx</td>
+  </tr>
+    <tr>
+       <th>Skype</th>
+       <td>xxxxxxxxxx</td>
+  </tr>
+
+</table>
+<br>
+<br>
+
+<h1>Estudiante 5</h1>
+
+<table border="1">
+   <tr>
+       <th>Item</th>
+       <td><b>Datos</b></td>
+       <td><b>Foto</b></td>
+      </tr>
+   <tr>
+       <th>Nombres</th>
+       <td>xxxxxxxxx</td>
+       <td rowspan="6">
+       	
+<img img width="150" height="170"src="img/xxxxxx.jpg">
+
+       </td>
+   </tr>
+  <tr>
+  	   <th>Apellidos</th>
+       <td>xxxxxxxxx</td>
+  </tr>
+  <tr>
+       <th>Codigo</th>
+       <td>xxxxxxxxxx</td>
+  </tr>
+    <tr>
+       <th>Programa</th>
+       <td>Ingenieria de Sistemas</td>
+  </tr>
+     <tr>
+       <th>Correo</th>
+       <td>xxxxxxxxxx</td>
+  </tr>
+    <tr>
+       <th>Skype</th>
+       <td>xxxxxxxxxxxxx</td>
+  </tr>
+
+</table>
+<br>
+<br>
+
+
+
+</body>
+
+<br>
+<br>
+<br>
+<img width="1300" height="170"src="img/unad.jpg">
+
+</html>
