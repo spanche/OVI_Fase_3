@@ -1,28 +1,51 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
+     <head>
         <meta charset="utf-8">
         <title>Logica de programación</title>
         <link rel="shorcut icon" type="image/x-icon" href="https://www.unad.edu.co/templates/unad2018home/favicon.ico">
-        <link rel="stylesheet" href="css/menu.css">
-    </head>
+        <link rel="stylesheet" type="text/css" href="../css/general.css">
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/menu.css">
+	     </head>
     <body>
         <img src="https://www.unad.edu.co/templates/unadgeneral/images/logoUNAD.png" alt="Unad">
         <h1> Logica de programación</h1>
 
-        <header>
-            <div class="Contenedor">
-                <!-- Lista de items que estaran en el menu -->
-                <nav class="menu">
-                    <a href = "#"> Inicio </a>
-                    <a href = "QueEs.html"> Que es ? </a>
-                    <a href = "#"> Como aplicarla </a>
-                    <a href = "#"> Diagrama de flujo </a>
-                    <a href = "#"> Algoritmos </a>
-                </nav>
-            </div>
-        </header>
+<header>
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class="container">
 
+<div class="navbar-header">
+<button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+<a href="<?php echo $ruta; ?>index" class="navbar-brand"><img src=""></a> </div>
+<!--/.navbar-header -->
+<div class="navbar-collapse collapse" id="navbar">
+<ul class="nav navbar-nav navbar-right">
+<li><a href="../index.html">Inicio</a></li>
+<li class="dropdown"><a href="lecturas.html">Lecturas</a>
+<ul role="menu" class="dropdown-menu">
+<li><a title="" href="lecturas.html">Lectura1</a></li>
+<li><a title="" href="lecturas.html">Lectura2</a></li>
+<li><a title="" href="lecturas.html">Lectura3</a></li>
+<li><a title="" href="lecturas.html">Lectura4</a></li>
+<li><a title="" href="lecturas.html">Lectura5</a></li>
+</ul>
+</li>
+<li class="dropdown"> <a href="multimedia.html">Multimedia</a>
+<ul role="menu" class="dropdown-menu">
+<li><a title="" href="multimedia.html">Multimedia1</a></li>
+<li><a title="" href="multimedia.html">Multimedia2</a></li>            
+</ul>
+</li>
+<li><a href="actividades.html">Actividades</a></li>
+<li><a href="autores.html">Autores</a></li>
+</ul>
+</div>
+<!--/.nav-collapse --> 
+</div>
+</nav>
+</header>
         <main>
             <!-- Contenedor principal de la pagina web -->
 			<section id="Logica">
@@ -59,5 +82,8 @@
                 </p>
             </div>
         </footer>        
+         <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script> 
+		<script type="text/javascript" src="../js/bootstrap.min.js"></script> 
+		<script type="text/javascript" src="../js/menu.js"></script> 
     </body>
 </html>

@@ -1046,7 +1046,7 @@ button, input, select, textarea {
 	line-height: inherit
 }
 a {
-	color: #24b8ff;
+	color: #fff;
 	text-decoration: none;
 	transition: all 0.15s linear 0s;
 	-webkit-transition: all 0.15s linear 0s;
@@ -1054,7 +1054,7 @@ a {
 	-o-transition: all 0.15s linear 0s;
 }
 a:focus, a:hover {
-	color: #0083C1;
+	color: #f0b429;
 }
 a:focus {
 	outline: thin dotted;
@@ -2940,13 +2940,13 @@ tbody.collapse.in {
 	clear: both;
 	font-weight: 400;
 	line-height: 1.42857143;
-	color: #0086C4;
+	color: #f0b429;
 	white-space: nowrap
 }
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
 	color: #fff;
 	text-decoration: none;
-	background-color: #00A3F0
+	background-color: #0077b0;
 }
 .dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
 	color: #fff;
@@ -3536,7 +3536,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 }
 }
 .navbar-fixed-top {
-	top: 0;
+
 	border-width: 0 0 1px
 }
 .navbar-fixed-bottom {
@@ -3629,7 +3629,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 	float: left
 }
 .navbar-nav>li>a {
-	padding-top: 0px;
+	padding-top: 5px;
 	padding-bottom: 5px
 }
 }
@@ -3757,7 +3757,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 }
 }
 .navbar-default {
-	background-color: #fff;
+	background-color: #f0b429;
 	border-color: #e7e7e7
 }
 .navbar-default .navbar-brand {
@@ -3771,7 +3771,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 	color: #777
 }
 .navbar-default .navbar-nav>li>a {
-	color: #0086C4;
+	color: #fff;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 	color: #333;
@@ -6161,7 +6161,7 @@ td.visible-print, th.visible-print {
 /*Etiqueta a en línea 1045*/
 
 body {
-	padding-top: 80px;
+	
 }
 h1 {
 	color: #005782;
@@ -6253,7 +6253,8 @@ body {
 	background-color: #005782
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-	color: #24b8ff;
+	color: #f0b429;
+	background-color:#FFF;
 }
 .dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
 	color: #fff;
@@ -6274,11 +6275,11 @@ body {
 	vertical-align: middle;
 }
 .navbar-default {
-	box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.5);
+	box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.5);
 	opacity: 1;
 }
 .navbar {
-	min-height: 80px;
+
 }
 .navbar-right {
 	margin-top: 10px;
