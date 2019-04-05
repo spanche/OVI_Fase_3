@@ -4,21 +4,90 @@
         <meta charset="utf-8">
         <title>Logica de programación</title>
         <link rel="shorcut icon" type="image/x-icon" href="https://www.unad.edu.co/templates/unad2018home/favicon.ico">
-        <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" type="text/css" href="../css/general.css">
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/carousel.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/animate.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/menu.css">
+	
+        
+        
     </head>
     <body>
         <img src="https://www.unad.edu.co/templates/unadgeneral/images/logoUNAD.png" alt="Unad">
         <h1> Logica de programación</h1>
 
         <header>
+        
+        
+        
+        <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a href="<?php echo $ruta; ?>index" class="navbar-brand"><img src="<?php echo $ruta; ?>img/logo/odontosalud80-logo.png"></a> </div>
+    <!--/.navbar-header -->
+    <div class="navbar-datos">
+      <li class="navbar-reserve">Tu cita sin costo en Bogotá<span>434 5348</span></li>
+      <li class="navbar-idioma"> Idioma <a href="<?php echo $ruta; ?>en/index">English</a></li>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="<?php echo $ruta; ?>">Inicio</a></li>
+        <li class="dropdown"><a aria-expanded="false" role="button" data-toggle="dropdown" class="dropdown-toggle" href="">Acerca</a>
+          <ul role="menu" class="dropdown-menu">
+            <li><a title="Nuestra Clínica Odontológica" href="<?php echo $ruta; ?>pages/nuestra-clinica-odontologica">Clínica</a></li>
+            <li><a title="Nuestros Profesionales en Odontológia" href="<?php echo $ruta; ?>pages/nuestros-especialistas-en-odontologia">Especialistas</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a aria-expanded="false" role="button" data-toggle="dropdown" class="dropdown-toggle" href="#">Servicios Odontológicos</a>
+          <ul role="menu" class="dropdown-menu">
+            <li><a title="Tratamientos de ortodoncia" href="<?php echo $ruta; ?>pages/ortodoncia">Ortodoncia</a></li>
+            <li><a title="Tratamientos de implantes dentales" href="<?php echo $ruta; ?>pages/implantes-dentales">Implantes Dentales</a></li>
+            <li><a title="Tratamientos de diseño de sonrisa" href="<?php echo $ruta; ?>pages/diseno-de-sonrisa">Diseño de Sonrisa</a></li>
+            <li><a title="Tratamientos de blanqueamiento dental" href="<?php echo $ruta; ?>pages/blanqueamiento-dental">Blanqueamiento Dental</a></li>
+            <li><a title="Tratamientos de rehabilitación oral" href="<?php echo $ruta; ?>pages/rehabilitacion-oral">Rehabilitación Oral</a></li>
+            <li><a title="Tratamientos de periodoncia" href="<?php echo $ruta; ?>pages/periodoncia">Periodoncia</a></li>
+            <li><a title="Tratamientos de ortopedia maxilar" href="<?php echo $ruta; ?>pages/ortopedia-maxilar">Ortopedia Maxilar</a></li>
+            <li><a title="Tratamientos de endodoncia" href="<?php echo $ruta; ?>pages/endodoncia">Endododoncia</a></li>
+            <hr />
+            <li><a title="Casos Clínicos Odontológicos" href="<?php echo $ruta; ?>pages/casos">Casos Clínicos de Odontología</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a aria-expanded="false" role="button" data-toggle="dropdown" class="dropdown-toggle" href="#">Otros Servicios</a>
+          <ul role="menu" class="dropdown-menu">
+            <li><a title="Promociones y descuentos en odontología, ortodoncia, blanqueamiento dental e implantes dentales" href="<?php echo $ruta; ?>pages/ser_promociones">Promociones en Odontología</a></li>
+            <li><a title="Crédito y facilidades de pago para tus procedimientos en odontología" href="<?php echo $ruta; ?>pages/credito">Crédito y Facilidades de Pago</a></li>
+            <li><a title="Obtén descuentos y diversidad de beneficios en tratamientos en odontologia por intermedio de nuestros convenios" href="<?php echo $ruta; ?>pages/ser_convenios">Convenios y Seguros en Odontología</a></li>
+            <li><a title="Obtén beneficios si perteneces a un Fondo de Empleados" href="<?php echo $ruta; ?>pages/ser_fondos">Fondos de Empleados</a></li>
+            <li><a title="Tips para el cuidado de tus dientes" href="<?php echo $ruta; ?>pages/aprende">Tips para el cuidado de tus dientes</a></li>
+            <!--<li><a href="#">Preguntas Frecuentes</a></li>-->
+            <li><a title="Un servicio pensado para pacientes que viven fuera de Bogotá o de Colombia" href="<?php echo $ruta; ?>pages/extranjeros">Turismo Odontológico</a></li>
+            <li><a title="Te mostramos 6 buenas razones para elegir nuestros servicios en odontología" href="<?php echo $ruta; ?>pages/razones">6 Razones Para Sonreir</a></li>
+          </ul>
+        </li>
+        <li><a title="Contáctanos si requieres ampliar información o conocer los costos de los procedimientos odontológicos" href="<?php echo $ruta; ?>pages/contacto">Contacto</a></li>
+      </ul>
+    </div>
+    <!--/.nav-collapse --> 
+    
+  </div>
+</nav>
+
+<!--/.Menu--> 
+        
+        
+        
+        
+        
             <div class="Contenedor">
                 <!-- Lista de items que estaran en el menu -->
                 <nav class="menu">
-                    <a href = "#"> Inicio </a>
-                    <a href = "QueEs.html"> Que es ? </a>
-                    <a href = "#"> Como aplicarla </a>
-                    <a href = "#"> Diagrama de flujo </a>
-                    <a href = "#"> Algoritmos </a>
+                    <a href = "../Index.html">Inicio </a>
+                    <a href = "lecturas.html">Lecturas</a>
+                    <a href = "multimedia.html">Multimedia</a>
+                    <a href = "multimedia.html">Actividades</a>
+                    <a href = "autores.html">Autores</a>
                 </nav>
             </div>
         </header>
@@ -58,6 +127,11 @@
                     Buzón de notificaciones </br>
                 </p>
             </div>
-        </footer>        
+        </footer>   
+        
+        <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script> 
+		<script type="text/javascript" src="../js/bootstrap.min.js"></script> 
+		<script type="text/javascript" src="../js/menu.js"></script> 
+		<script type="text/javascript" src="../js/wow.min.js"></script>      
     </body>
 </html>
