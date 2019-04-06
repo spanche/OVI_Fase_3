@@ -104,7 +104,6 @@ footer div {
 
 footer div img {
 	width: 20%;
-
 	position: relative;
 	top: 60px;
 	left: 50px;
@@ -115,8 +114,14 @@ footer div p {
 	color: #fff;
 	padding-bottom: 10px;
 	position: relative;
-	bottom: 20px;
+	
 }
 section {
 	padding-bottom: 30px;
 }
+
+footer {
+	background-color: black;
+}
+
+
