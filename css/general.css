@@ -7,7 +7,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-body img {
+body div img {
 	position: relative;
 	top: 10px;
 	left: 10px;
@@ -17,6 +17,10 @@ body img {
 h1 {
 	text-align: center;	
 	font-size: 30px;
+    
+    position: absolute;
+    bottom: 91%;
+    left: 40%;
 }
 
 header {
@@ -55,12 +59,24 @@ header {
 	color: #090909;
 }
 
-main section h2 {
-	text-align: center;
-	padding: 1%;
+main {
+	padding-bottom: 0%;
 
 	position: relative;
-	top: 15px;
+	top: 10px;
+}
+
+main section h2 {
+	text-align: center;
+	padding-bottom: 1%;
+
+	position: relative;
+	top: 20px;
+}
+
+main section p ol {
+	text-align: center;
+	padding-top: 5%;
 }
 
 main section img {
@@ -84,11 +100,25 @@ main section p {
 footer div {
 	background-color: #000000;
 	width: 100%;
-	height: 200px;
+	height: 0%;
 }
 
+footer div img {
+	width: 20%;
+
+	position: relative;
+	top: 60px;
+	left: 50px;
+}
+
+footer div p {
+	text-align: center;
+	color: #fff;
+	padding-bottom: 40px;
+
+	position: relative;
+	bottom: 20px;
+}
 section {
 	padding-bottom: 30px;
-
-
 }
