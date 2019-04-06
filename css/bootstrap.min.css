@@ -3284,7 +3284,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 .nav>li>a {
 	position: relative;
 	display: block;
-	padding: 10px 10px
+	padding: 10px 40px
 }
 .nav>li>a:focus, .nav>li>a:hover {
 	text-decoration: none;
@@ -3512,7 +3512,8 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 @media (min-width:768px) {
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
 	margin-right: 0;
-	margin-left: 0
+	margin-left: 0;
+	text-align:center;
 }
 }
 .navbar-static-top {
@@ -3525,7 +3526,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 }
 }
 .navbar-fixed-bottom, .navbar-fixed-top {
-	position: fixed;
+	/*position: fixed;*/
 	right: 0;
 	left: 0;
 	z-index: 1030
@@ -3622,11 +3623,11 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 }
 @media (min-width:768px) {
 .navbar-nav {
-	float: left;
+	/*float: left;*/
 	margin: 0
 }
 .navbar-nav>li {
-	float: left
+	/*float: left*/
 }
 .navbar-nav>li>a {
 	padding-top: 5px;
@@ -3749,7 +3750,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 	float: left!important
 }
 .navbar-right {
-	float: right!important;
+	/*float: right!important;*/
 	margin-right: -10px
 }
 .navbar-right~.navbar-right {

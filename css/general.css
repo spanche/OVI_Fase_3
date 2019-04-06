@@ -17,9 +17,8 @@ body div img {
 h1 {
 	text-align: center;	
 	font-size: 30px;
-    
     position: absolute;
-    bottom: 91%;
+    top: -15px;
     left: 40%;
 }
 
