@@ -117,27 +117,62 @@ button[disabled], html input[disabled] {
 	cursor: default
 }
 button::-moz-focus-inner, input::-moz-focus-inner {
-padding:0;
-border:0
+	padding:0;
+	border:0
 }
 
+/* Sergio Panche */
+/* Estilos para la pagina de multimedia */
 #diagramaFlujo {
 	position: relative;
 	padding-left: 20%;
 	padding-right: 55%;
 }
 
-#imgdiagramaFlujo {
-	width: 50px;
-	height: 70px;
+#listaalgoritmo {
+	text-align: left;
+	padding-left: 20%;
+	padding-right: 55%;
 
 	position: relative;
-	padding-left: 55%;
+	left: 1%;
 }
+
+#imgdiagramaFlujo{
+	width: 30%;
+	height: 18%;
+
+	position: absolute;
+	left: 52%;
+	bottom: 55%;
+}
+
+#algoritmo {
+	position: relative;
+	padding-left: 58%;
+	padding-right: 18%;
+}
+
+#listaalgoritmo {
+	position: relative;
+	padding-left: 58%;
+	padding-right: 18%;
+}
+
+#imgalgoritmo {
+	width: 40%;
+	height: 22%;
+
+	position: absolute;
+	left: 15%;
+	bottom: 4%;
+}
+/* Sergio Panche */
 
 input {
 	line-height: normal
 }
+
 input[type=checkbox], input[type=radio] {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
