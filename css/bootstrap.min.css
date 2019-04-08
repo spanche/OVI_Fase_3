@@ -98,7 +98,7 @@ code, kbd, pre, samp {
 	font-family: monospace, monospace;
 	font-size: 1em
 }
-button, input, optgroup, select, textarea {
+	button, input, optgroup, select, textarea {
 	margin: 0;
 	font: inherit;
 	color: inherit
@@ -6966,17 +6966,8 @@ body {
 .espacio20 {
 	margin-top: 20px;
 }
-#navegacion-ft {
-	background-color: #7DD5FF;
-	background-image: linear-gradient(to bottom, #7DD5FF, #24b8ff);/* Standard syntax */
-	background-image: -webkit-linear-gradient(#7DD5FF, #24b8ff); /* For Safari 5.1 to 6.0 */
-	background-image: -o-linear-gradient(#7DD5FF, #24b8ff); /* For Opera 11.1 to 12.0 */
-	background-image: -moz-linear-gradient(#7DD5FF, #24b8ff); /* For Firefox 3.6 to 15 */
-	color: #006FAA;
-}
-#navegacion-ft h4 {
-	color: #004F79;
-}
+
+
 #navegacion-ft .intro {
 	margin: 10px 0 5px;
 }
