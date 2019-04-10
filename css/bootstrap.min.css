@@ -125,8 +125,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 /* Estilos para la pagina de multimedia */
 #diagramaFlujo {
 	position: relative;
-	padding-left: 20%;
-	padding-right: 55%;
+	padding: 10%;
+	/*padding-right: 55%;*/
 }
 
 #listaalgoritmo {
@@ -142,7 +142,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	width: 30%;
 	height: 18%;
 
-	position: absolute;
+	/*position: absolute;*/
 	left: 52%;
 	bottom: 55%;
 }
