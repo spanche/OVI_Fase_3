@@ -3346,7 +3346,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 .nav>li>a {
 	position: relative;
 	display: block;
-	padding: 10px 40px
+	padding: 10px 10px
 }
 .nav>li>a:focus, .nav>li>a:hover {
 	text-decoration: none;
@@ -6389,7 +6389,7 @@ body {
 }
 @media (max-width:450px) {
 .navbar-fixed-bottom, .navbar-fixed-top {
-	position: fixed;
+	/*position: fixed;*/
 }
 }
 @media (max-width:350px) {
