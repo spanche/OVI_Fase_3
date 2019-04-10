@@ -1,167 +1,167 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Lógica de programación</title>
-        <link rel="shorcut icon" type="image/x-icon" href="https://www.unad.edu.co/templates/unad2018home/favicon.ico">
-        <link rel="stylesheet" type="text/css" href="../css/general.css">
-        <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
-        <link rel="stylesheet" type="text/css" href="../css/menu.css">
-    </head>
-    
-    <body>
-        <div>
-            <img src="../imagenes/logo-unad.png" alt="Unad">
-            <h1> Lógica  de programación </h1>
-        </div>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lógica de programación</title>
+    <link rel="shorcut icon" type="image/x-icon" href="https://www.unad.edu.co/templates/unad2018home/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../css/general.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/menu.css">
+</head>
 
-        <header>
-            <nav class="navbar navbar-default navbar-fixed-top">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-                        <a href="<?php echo $ruta; ?>index" class="navbar-brand"><img src=""></a> 
-                    </div>
+<body>
+    <div>
+        <img src="../imagenes/logo-unad.png" alt="Unad">
+        <h1> Lógica  de programación </h1>
+    </div>
 
-                    <div class="navbar-collapse collapse" id="navbar">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li>
-                                <a href="../index.html">Inicio</a>
-                            </li>
-                            <li class="dropdown"><a href="lectura-logica-programacion.html">Lecturas</a>
-                                <ul role="menu" class="dropdown-menu">
-                                    <li><a title="" href="lectura-logica-programacion.html">Logica de programación</a></li>
-                                    <li><a title="" href="lectura-tips-programacion.html">Tips de programación</a></li>
-                                    <li><a title="" href="lectura-metodos-ordenamiento.html">Metodos de ordenamiento</a></li>
-                                    <li><a title="" href="lectura-programacion-orientada-objetos.html">Programación orientada a objetos</a></li>
-                                    <li><a title="" href="lectura-como-aplicar-poo.html">Como aplicar la POO </a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown"> <a href="multimedia-diagramas-flujo.html">Multimedia</a>
-                                <ul role="menu" class="dropdown-menu">
-                                    <li><a title="" href="multimedia-diagramas-flujo.html">Diagrámas de flujo</a></li>
-                                    <li><a title="" href="multimedia-algoritmos.html">Algoritmos</a></li>            
-                                </ul>
-                            </li>
-                            <li class="dropdown"> <a href="curso-programacion-orientada-objetos.html">Actividades</a>
-                                <ul role="menu" class="dropdown-menu">
-                                    <li><a title="" href="curso-programacion-orientada-objetos.html">Programación orientada a objetos</a></li>
-                                    <li><a title="" href="curso-introduccion-html-html5.html">Curso de HTML5</a></li>            
-                                    <li><a title="" href="curso-sql-desde-cero.html">Curso de SQL</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="autores.html">Autores</a>
-                            </li>
-                        </ul>
-                    </div>
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                    <a href="<?php echo $ruta; ?>index" class="navbar-brand"><img src=""></a> 
                 </div>
-            </nav>
-        </header>
 
-        <main>
-            <!-- Contenedor principal de la pagina web -->
-			<section id="Logica" class="container">
-
-                <h2> Metodos de ordenamiento </h2>
-                <p>
-                    Ordenamiento es la operación de arreglar los registros de una tabla en algún orden secuencial de acuerdo a un criterio de ordenamiento. El ordenamiento se efectúa con base en el valor de algún campo en un registro. El propósito principal de un ordenamiento es el de facilitar las búsquedas de los miembros del conjunto ordenado. El ordenar un grupo de datos significa mover los datos o sus referencias para que queden en una secuencia tal que represente un orden, el cual puede ser numérico, 
-                    alfabético o incluso alfanumérico, ascendente o descendente. Descripción de los métodos de ordenación: burbuja, selección e inserción.
-                    </br> </br>
-                    Debido a que las estructuras de datos son utilizadas para almacenar información, para poder recuperar esa información de manera eficiente es deseable que aquella esté ordenada. Existen varios métodos para ordenar las diferentes estructuras de datos básicas.
-                    En general los métodos de ordenamiento no son utilizados con frecuencia, en algunos casos sólo una vez. Hay métodos muy simples de implementar que son útiles en los casos en dónde el número de elementos a ordenar no es muy grande (ej., menos de 500 elementos). Por otro lado hay métodos sofisticados, más difíciles de implementar pero que son más eficientes en cuestión de tiempo de ejecución.
-
-                    <h4> Metodo Burbuja </h4>
-                    <img src="../imagenes/Iinteracion-burbuja.png" alt="Metodo burbuja">
-                    Segun Navarro (2016) El algoritmo de ordenamiento de burbuja es uno de los algoritmos de ordenamiento más sencillos aunque no es el más eficiente. Su simplicidad lo convierte en un algoritmo ideal para practicar programación. Estabilidad: Estable Método: Intercambio Comparativo: Si Uso de memoria: 1 Complejidad computacional: Mejor caso: on Caso promedio: n2 Peor caso: n2
-
-                    <h4> Método Selección </h4>
-                    <img src="../imagenes/metodo-de-ordenamiento-por-seleccion.jpg" alt="Metodo burbuja">
-                    Algoritmo de ordenamiento por Selección (Selection Sort en inglés): Consiste en encontrar el menor de todos los elementos del arreglo o vector e intercambiarlo con el que está en la primera posición. Luego el segundo mas pequeño, y así sucesivamente hasta ordenarlo todo. Su implementación requiere O(n2) comparaciones e intercambios para ordenar una secuencia de elementos. ventajas: Es fácil su implementación. No requiere memoria adicional. Realiza pocos intercambios. Tiene un rendimiento constante, pues existe poca diferencia entre el peor y el mejor caso. Desventajas: 
-                    Es lento y poco eficiente cuando se usa en listas grandes o medianas. Realiza numerosas comparaciones.
-                    </br> </br>
-                    Su funcionamiento es el siguiente:
-
-                    <ul>
-                        <li> Buscar el mínimo elemento de la lista.</li>
-                        <li> Intercambiarlo con el primero.</li>
-                        <li> Buscar el mínimo en el resto de la lista.</li>
-                        <li> Intercambiarlo con el segundo.</li>
+                <div class="navbar-collapse collapse" id="navbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="../index.html">Inicio</a>
+                        </li>
+                        <li class="dropdown"><a href="lectura-logica-programacion.html">Lecturas</a>
+                            <ul role="menu" class="dropdown-menu">
+                                <li><a title="" href="lectura-logica-programacion.html">Logica de programación</a></li>
+                                <li><a title="" href="lectura-tips-programacion.html">Tips de programación</a></li>
+                                <li><a title="" href="lectura-metodos-ordenamiento.html">Metodos de ordenamiento</a></li>
+                                <li><a title="" href="lectura-programacion-orientada-objetos.html">Programación orientada a objetos</a></li>
+                                <li><a title="" href="lectura-como-aplicar-poo.html">Como aplicar la POO </a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"> <a href="multimedia-diagramas-flujo.html">Multimedia</a>
+                            <ul role="menu" class="dropdown-menu">
+                                <li><a title="" href="multimedia-diagramas-flujo.html">Diagrámas de flujo</a></li>
+                                <li><a title="" href="multimedia-algoritmos.html">Algoritmos</a></li>            
+                            </ul>
+                        </li>
+                        <li class="dropdown"> <a href="curso-programacion-orientada-objetos.html">Actividades</a>
+                            <ul role="menu" class="dropdown-menu">
+                                <li><a title="" href="curso-programacion-orientada-objetos.html">Programación orientada a objetos</a></li>
+                                <li><a title="" href="curso-introduccion-html-html5.html">Curso de HTML5</a></li>            
+                                <li><a title="" href="curso-sql-desde-cero.html">Curso de SQL</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="autores.html">Autores</a>
+                        </li>
                     </ul>
-                    
-                    <h4> Método Inserción </h4>
-                    <img src="../imagenes/Ordenamiento-insercion.jpg" alt="Metodo burbuja">
-                    El ordenamiento por inserción es una manera muy natural de ordenar para un ser humano, y puede usarse fácilmente para ordenar un mazo de cartas numeradas en forma arbitraria. La idea de este algoritmo de ordenación consiste en ir insertando un elemento de la lista ó un arreglo en la parte ordenada de la misma, asumiendo que el primer elemento es la parte ordenada, el algoritmo ira comparando un elemento de la parte desordenada de la lista con los elementos de la parte ordenada, insertando el eleme
-                    posición correcta dentro de la parte ordenada, y así sucesivamente hasta obtener la lista ordenada.                    
-                </p>
-
-
-
-            </section>            
-        </main>
-
-        <footer>
-            <div class="section" id="navegacion-ft">
-                <div class="container"> 
-                <!-- Columna 1 ================================================== -->
-                    <div class="col-md-3">
-                        <h4>Menú de Navegación</h4>
-                        <ul class="list-unstyled">
-                            <li><a title="" href="../index.html">Inicio</a></li>
-                            <li><a title="" href="lectura-logica-programacion.html">Lecturas</a></li>
-                            <li><a title="" href="multimedia.html">Multimedia</a></li>
-                            <li><a title="" href="actividades.html">Actividades</a></li>
-                            <li><a title="" href="autores.html">Autores</a></li>
-                        </ul>
-                        <div class="clearfix espacio20"></div>
-                        <h4>Contador de visitas</h4>
-                        <ul>
-                         <!-- Contador de visitas -->
-                            <div>
-                                <img style="border: 5px solid; display: inline; padding-bottom: 1px;" alt="contador de visitas" src="http://www.websmultimedia.com/contador-de-visitas.php?id=260637">
-                            </div>
-                        <!-- Fin Contador de visitas -->      
-                         </ul>
-                    <div class="clearfix espacio20"></div>
-                </div>
-            <!-- Columna 2 ================================================== -->
-                <div class="col-md-3">
-                    <h4>Contáctanos</h4>
-                    <ul class="list-unstyled">
-                        <p>
-                           Sede nacional José Celestino Mutis: </br>
-                           Calle 14 sur No. 14 - 23 </br>
-                           PBX: ( +57 1 ) 344 3700 </br>Bogotá D.C., Colombia </br>
-                           Línea nacional gratuita en Colombia: 018000115223 </br>
-                           Atención al usuario: atencionalusuario@unad.edu.co </br>
-                           Anticorrupción: anticorrupcion@unad.edu.co </br>
-                        </p>
-                    </ul>
-                    <div class="clearfix espacio20"></div>
-                </div>
-            <!-- Columna 3           ================================================== -->
-                <div class="col-md-3">
-                    <h4>Tweets UNAD</h4>
-                    <ul class="list-unstyled">
-                        <a class="twitter-timeline" data-width="300" data-height="200" data-theme="dark" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> 
-                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-                    </ul>
-                    <div class="clearfix espacio20"></div>
-                </div>
-    
-            <!-- Columna 4 ================================================== -->
-                <div class="col-md-3">
-                    <img src="../imagenes/footer-logo.png" alt="Universidad Nacional Abierta y a Distancia UNAD">
-                <div class="clearfix espacio20"></div>
-                    </div>
                 </div>
             </div>
-        <!--/. section navegacion-ft -->
-        </footer>  
+        </nav>
+    </header>
+
+    <main>
+        <!-- Contenedor principal de la pagina web -->
+        <section id="Logica" class="container">
+
+            <h2> Metodos de ordenamiento </h2>
+            <p>
+                Ordenamiento es la operación de arreglar los registros de una tabla en algún orden secuencial de acuerdo a un criterio de ordenamiento. El ordenamiento se efectúa con base en el valor de algún campo en un registro. El propósito principal de un ordenamiento es el de facilitar las búsquedas de los miembros del conjunto ordenado. El ordenar un grupo de datos significa mover los datos o sus referencias para que queden en una secuencia tal que represente un orden, el cual puede ser numérico, 
+                alfabético o incluso alfanumérico, ascendente o descendente. Descripción de los métodos de ordenación: burbuja, selección e inserción.
+            </br> </br>
+            Debido a que las estructuras de datos son utilizadas para almacenar información, para poder recuperar esa información de manera eficiente es deseable que aquella esté ordenada. Existen varios métodos para ordenar las diferentes estructuras de datos básicas.
+            En general los métodos de ordenamiento no son utilizados con frecuencia, en algunos casos sólo una vez. Hay métodos muy simples de implementar que son útiles en los casos en dónde el número de elementos a ordenar no es muy grande (ej., menos de 500 elementos). Por otro lado hay métodos sofisticados, más difíciles de implementar pero que son más eficientes en cuestión de tiempo de ejecución.
+
+            <h4> Metodo Burbuja </h4>
+            <img src="../imagenes/Iinteracion-burbuja.png" alt="Metodo burbuja">
+            Segun Navarro (2016) El algoritmo de ordenamiento de burbuja es uno de los algoritmos de ordenamiento más sencillos aunque no es el más eficiente. Su simplicidad lo convierte en un algoritmo ideal para practicar programación. Estabilidad: Estable Método: Intercambio Comparativo: Si Uso de memoria: 1 Complejidad computacional: Mejor caso: on Caso promedio: n2 Peor caso: n2
+
+            <h4> Método Selección </h4>
+            <img src="../imagenes/metodo-de-ordenamiento-por-seleccion.jpg" alt="Metodo burbuja">
+            Algoritmo de ordenamiento por Selección (Selection Sort en inglés): Consiste en encontrar el menor de todos los elementos del arreglo o vector e intercambiarlo con el que está en la primera posición. Luego el segundo mas pequeño, y así sucesivamente hasta ordenarlo todo. Su implementación requiere O(n2) comparaciones e intercambios para ordenar una secuencia de elementos. ventajas: Es fácil su implementación. No requiere memoria adicional. Realiza pocos intercambios. Tiene un rendimiento constante, pues existe poca diferencia entre el peor y el mejor caso. Desventajas: 
+            Es lento y poco eficiente cuando se usa en listas grandes o medianas. Realiza numerosas comparaciones.
+        </br> </br>
+        Su funcionamiento es el siguiente:
+
+        <ul>
+            <li> Buscar el mínimo elemento de la lista.</li>
+            <li> Intercambiarlo con el primero.</li>
+            <li> Buscar el mínimo en el resto de la lista.</li>
+            <li> Intercambiarlo con el segundo.</li>
+        </ul>
         
-        <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script> 
-		<script type="text/javascript" src="../js/bootstrap.min.js"></script> 
-		<script type="text/javascript" src="../js/menu.js"></script> 
-    </body>
+        <h4> Método Inserción </h4>
+        <img src="../imagenes/Ordenamiento-insercion.jpg" alt="Metodo burbuja">
+        El ordenamiento por inserción es una manera muy natural de ordenar para un ser humano, y puede usarse fácilmente para ordenar un mazo de cartas numeradas en forma arbitraria. La idea de este algoritmo de ordenación consiste en ir insertando un elemento de la lista ó un arreglo en la parte ordenada de la misma, asumiendo que el primer elemento es la parte ordenada, el algoritmo ira comparando un elemento de la parte desordenada de la lista con los elementos de la parte ordenada, insertando el eleme
+        posición correcta dentro de la parte ordenada, y así sucesivamente hasta obtener la lista ordenada.                    
+    </p>
+
+
+
+</section>            
+</main>
+
+<footer>
+    <div class="section" id="navegacion-ft">
+        <div class="container"> 
+            <!-- Columna 1 ================================================== -->
+            <div class="col-md-3">
+                <h4>Menú de Navegación</h4>
+                <ul class="list-unstyled">
+                 <li><a title="" href="../index.html">Inicio</a></li>
+                 <li><a title="" href="lectura-logica-programacion.html">Lecturas</a></li>
+                 <li><a title="" href="multimedia-diagramas-flujo.html">Multimedia</a></li>
+                 <li><a title="" href="curso-programacion-orientada-objetos.html">Actividades</a></li>
+                 <li><a title="" href="autores.html">Autores</a></li>
+             </ul>
+             <div class="clearfix espacio20"></div>
+             <h4>Contador de visitas</h4>
+             <ul>
+               <!-- Contador de visitas -->
+               <div>
+                <img style="border: 5px solid; display: inline; padding-bottom: 1px;" alt="contador de visitas" src="http://www.websmultimedia.com/contador-de-visitas.php?id=260637">
+            </div>
+            <!-- Fin Contador de visitas -->      
+        </ul>
+        <div class="clearfix espacio20"></div>
+    </div>
+    <!-- Columna 2 ================================================== -->
+    <div class="col-md-3">
+        <h4>Contáctanos</h4>
+        <ul class="list-unstyled">
+            <p>
+            Sede nacional José Celestino Mutis: </br>
+        Calle 14 sur No. 14 - 23 </br>
+    PBX: ( +57 1 ) 344 3700 </br>Bogotá D.C., Colombia </br>
+Línea nacional gratuita en Colombia: 018000115223 </br>
+Atención al usuario: atencionalusuario@unad.edu.co </br>
+Anticorrupción: anticorrupcion@unad.edu.co </br>
+</p>
+</ul>
+<div class="clearfix espacio20"></div>
+</div>
+<!-- Columna 3           ================================================== -->
+<div class="col-md-3">
+    <h4>Tweets UNAD</h4>
+    <ul class="list-unstyled">
+        <a class="twitter-timeline" data-width="300" data-height="200" data-theme="dark" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> 
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+    </ul>
+    <div class="clearfix espacio20"></div>
+</div>
+
+<!-- Columna 4 ================================================== -->
+<div class="col-md-3">
+    <img src="../imagenes/footer-logo.png" alt="Universidad Nacional Abierta y a Distancia UNAD">
+    <div class="clearfix espacio20"></div>
+</div>
+</div>
+</div>
+<!--/. section navegacion-ft -->
+</footer>  
+
+<script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script> 
+<script type="text/javascript" src="../js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="../js/menu.js"></script> 
+</body>
 </html>
