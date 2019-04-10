@@ -6380,7 +6380,7 @@ body {
 }
 
 .navbar-fixed-bottom, .navbar-fixed-top {
-	position: absolute;
+	/*position: absolute;*/
 }
 .navbar-datos > li {
 	display:ruby;
